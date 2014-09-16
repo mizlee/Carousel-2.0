@@ -6,4 +6,4 @@ Time to complete: 15 hours. Painfully slow, but I haven't coded since college (a
 
 Tried to get the first page scrolling animation to work but ran out of time. 
 
-Gif animation: carousel.gif
+Gif animation: ../carousel.gif
