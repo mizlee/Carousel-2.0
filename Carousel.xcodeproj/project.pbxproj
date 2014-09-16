@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB68E6F119C7C13100CEC4A2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68E6F019C7C13100CEC4A2 /* SettingsViewController.swift */; };
 		BBA0967719C50A9900F60266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0967619C50A9900F60266 /* AppDelegate.swift */; };
 		BBA0967919C50A9900F60266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0967819C50A9900F60266 /* ViewController.swift */; };
 		BBA0967C19C50A9900F60266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA0967A19C50A9900F60266 /* Main.storyboard */; };
 		BBA0967E19C50A9900F60266 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA0967D19C50A9900F60266 /* Images.xcassets */; };
 		BBA0968A19C50A9900F60266 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0968919C50A9900F60266 /* CarouselTests.swift */; };
+		BBA0969619C5184600F60266 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0969519C5184600F60266 /* SignInViewController.swift */; };
+		BBA0969819C534DB00F60266 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0969719C534DB00F60266 /* TutorialViewController.swift */; };
+		BBA0969A19C7B15E00F60266 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0969919C7B15E00F60266 /* FeedViewController.swift */; };
+		BBA0969C19C7B24D00F60266 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0969B19C7B24D00F60266 /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB68E6F019C7C13100CEC4A2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BBA0967119C50A9800F60266 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA0967519C50A9900F60266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA0967619C50A9900F60266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +40,10 @@
 		BBA0968319C50A9900F60266 /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA0968819C50A9900F60266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA0968919C50A9900F60266 /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		BBA0969519C5184600F60266 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BBA0969719C534DB00F60266 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		BBA0969919C7B15E00F60266 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BBA0969B19C7B24D00F60266 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				BBA0967619C50A9900F60266 /* AppDelegate.swift */,
+				BBA0969B19C7B24D00F60266 /* ConversationsViewController.swift */,
+				BB68E6F019C7C13100CEC4A2 /* SettingsViewController.swift */,
+				BBA0969919C7B15E00F60266 /* FeedViewController.swift */,
+				BBA0969519C5184600F60266 /* SignInViewController.swift */,
+				BBA0969719C534DB00F60266 /* TutorialViewController.swift */,
 				BBA0967819C50A9900F60266 /* ViewController.swift */,
 				BBA0967A19C50A9900F60266 /* Main.storyboard */,
 				BBA0967D19C50A9900F60266 /* Images.xcassets */,
@@ -208,7 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA0969619C5184600F60266 /* SignInViewController.swift in Sources */,
 				BBA0967919C50A9900F60266 /* ViewController.swift in Sources */,
+				BB68E6F119C7C13100CEC4A2 /* SettingsViewController.swift in Sources */,
+				BBA0969A19C7B15E00F60266 /* FeedViewController.swift in Sources */,
+				BBA0969C19C7B24D00F60266 /* ConversationsViewController.swift in Sources */,
+				BBA0969819C534DB00F60266 /* TutorialViewController.swift in Sources */,
 				BBA0967719C50A9900F60266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +415,7 @@
 				BBA0968F19C50A9900F60266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBA0969019C50A9900F60266 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +424,7 @@
 				BBA0969219C50A9900F60266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
